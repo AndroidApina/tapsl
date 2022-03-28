@@ -1,0 +1,49 @@
+TapsellBannerView banner = findViewById(R.id.banner);
+banner.loadAd(getApplicationContext()
+,"623f3fac6fa75464324226fe",TapsellBannerType.BANNER_320x50);
+		
+banner.setEventListener(new TapsellBannerViewEventListener() {
+	@Override
+	public void onError(String message) {
+						
+		 
+		
+	}
+	
+	@Override
+	public void onNoNetwork() {
+		
+		 
+		
+	}
+	@Override
+	public void onRequestFilled() {
+		
+		 
+		
+	}
+	
+	@Override
+	public void onNoAdAvailable() {
+		
+		 
+		
+	}
+	@Override
+	public void onHideBannerView() {
+		
+		 
+		
+	}
+	
+});
+/*-JX4UA2y_f1OckjjvxWI.bQwRei-sLEsBmds7ArsRfi0xSFEP3Php97kjdMCs5ed
+>["public class"]
+>0
+>0
+>0
+>find-replace-first
+import ir.tapsell.sdk.bannerads.*;
+import ir.tapsell.sdk.Tapsell;
+public class
+BpWI8U4flOpx8Ke66QTlZYBA_NEusQ7BN-D0wvZs7ArsRfi0.EP3Php97kjdMCs*/
